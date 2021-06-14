@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure occurs whenever you need to reach outside of your current scope for a variable.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +66,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+'name' is an example of closure here because it isn't defined in the currentlevel of scope.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The string will remain the same but the random number will be just that, random every time.
+
 c. What is the lexical scope of `newRoll`? 
+newRoll is under the return function.
 
 
 ### Task 3 - Stretch Goals
